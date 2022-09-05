@@ -3,7 +3,6 @@ import './App.css';
 
 function App() {
   const [videos, setVideos] = useState([]);
-  const [name, setName] = useState('jeonghs');
 
   useEffect(()=>{
     const requestOptions = {
