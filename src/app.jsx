@@ -40,8 +40,3 @@ function App({ youtube }) {
 }
 
 export default App;
- "scripts": {
-+    "analyze": "source-map-explorer 'build/static/js/*.js'",
-     "start": "react-scripts start",
-     "build": "react-scripts build",
-     "test": "react-scripts test",
